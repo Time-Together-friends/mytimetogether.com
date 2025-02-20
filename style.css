@@ -1,0 +1,226 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6347;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.cta-button {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background: #e65c41;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    background: linear-gradient(to bottom, #ff6347, #ff8c00);
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.download-buttons .btn {
+    background: white;
+    color: #ff6347;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-apple {
+    background: #000;
+    color: white;
+}
+
+.btn-android {
+    background: #a4c639;
+    color: white;
+}
+
+.hero-image {
+    max-width: 400px;
+}
+
+/* Features Section */
+.features-section {
+    padding: 3rem;
+    text-align: center;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.feature-card img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 3rem;
+    text-align: center;
+    background: #fff;
+}
+
+/* Pricing Section */
+.pricing-section {
+    padding: 3rem;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.pricing-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.premium {
+    background: #ff6347;
+    color: white;
+}
+
+.premium ul li {
+    color: white;
+}
+
+.premium .btn {
+    background: white;
+    color: #ff6347;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 3rem;
+    text-align: center;
+    background: #fff;
+}
+
+#contact-form input,
+#contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact-form button:hover {
+    background: #e65c41;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+
+.footer-links {
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
